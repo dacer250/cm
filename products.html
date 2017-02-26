@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="css/products.css" rel="stylesheet">
+<!--<link rel="stylesheet" href="css/test.css" type="text/css"/>-->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+<nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+            <li class="cur"><a href="./index.html">首页</a></li>
+            <li><a href="./main.html">关于我们</a></li>
+            <li><a href="./products.html">产品</a></li>
+             <li ><a href="">人才计划</a></li>
+              <li><a href="./contactUs.html">联系我们</a></li>
+              <div class="move-bg"></div>
+          </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</header>
+
+
+<div class="container-fluid">
+<img src="img/AboutUs.jpg"class="img-responsive huadong">
+</div>
+
+<!--------------------------------->
+
+
+
+  
+<div class="nav  navbar-nav  hr">
+    <ul>
+        <li class="cur"><a href="#">专业</a></li>
+        <li><a href="#">品格</a></li>
+        <li><a href="#">温暖</a></li>
+        <li><a href="#">坚韧</a></li>
+    </ul> 
+    <div class="curBg" ></div>
+    <div class="cls"></div>
+</div>  
+
+
+
+<!--------------------------------------------------->
+<div class="container-2">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h1>
+<p class="main-p">具体内容</p>
+</h1>
+</div>
+<div class="container-fluid main-img">
+<img src="img/products-main.jpg"class="img-responsive huadong1">
+</div>
+</div>
+
+
+<div class="container">
+<p class="footer-p">友情链接</p>
+ <ul class="youqing">
+  <li role="presentation"><a class="a1" href="#">艺术简历</a></li>&nbsp;
+  <span class="span1">|</span>
+  <li role="presentation"><a class="a1" href="#">魅力东方</a></li>&nbsp;
+  <span class="span1">|</span>
+  <li role="presentation"><a class="a1" href="#">人物介绍</a></li>&nbsp;
+  <span class="span1">|</span> 
+  <li role="presentation"><a class="a1" href="#">赤子刊物</a></li>&nbsp;
+  <span class="span1">|</span>
+  <li role="presentation"><a class="a1" href="#">电视访谈</a></li>&nbsp;
+  <span class="span1">|</span>
+  <li role="presentation"><a class="a1" href="#">纸媒报道</a></li>&nbsp;
+  <span class="span1">|</span>
+</ul>
+ </div>
+
+
+
+
+<footer>
+<p class="copyright">@2016  大连科技有限公司</p>
+<ul class="icon-list">
+<li>
+<span class="glyphicon glyphicon-camera icon"></span>
+</li>
+<li>
+<span class="glyphicon glyphicon-envelope icon"></span>
+</li>
+<li>
+<span class=" glyphicon glyphicon-expand icon"></span>
+</li>
+<li>
+<span class="glyphicon glyphicon-comment icon"></span>
+</li>
+</ul>
+<div class="clearfix"></div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/products.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/zzsc.js"></script>
+<script>
+$(function(){
+	$("#navbar").movebg({
+		width:106/*滑块的大小*/,
+		/*extra:40额外反弹的距离,*/
+		speed:200/*滑块移动的速度*/,
+		rebound_speed:400/*滑块反弹的速度*/
+		});
+})
+</script>
+</body>
+</html>
